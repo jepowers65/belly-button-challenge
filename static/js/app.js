@@ -27,7 +27,6 @@ function init() {
     buildMetadata(sample1);
     buildBarChart(sample1);
     buildBubbleChart(sample1);
-    buildGuaageChart(sample1);
   });
 }
 
@@ -91,7 +90,6 @@ function buildBarChart(sample) {
 function buildBubbleChart(sample) {
   // Use D3 to retrieve all of the data
   d3.json(url).then((data) => {
-    // Retrieve all sample data
     let sampleInfo = data.samples;
 
     // Filter based on the value of the sample
@@ -117,7 +115,7 @@ function buildBubbleChart(sample) {
       marker: {
         size: sample_values,
         color: otu_ids,
-        colorscale: "Earth",
+        colorscale: "Health",
       },
     };
 
@@ -142,7 +140,6 @@ function optionChanged(value) {
   buildMetadata(value);
   buildBarChart(value);
   buildBubbleChart(value);
-  buildGaugeChart(value);
 }
 
 // Call the initialize function
