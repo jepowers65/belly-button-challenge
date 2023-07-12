@@ -25,3 +25,7 @@ Here is the link to the [Belly-Button Dashboard](https://jepowers65.github.io/be
 <br>![Bar Chart](barchart-1.png)<br>
 <br>![Demographics](metadata-1.png)<br>
 <br>![Bubble Chart](bubble-1.png)<br>
+
+## References
+
+Hulcr, J. et al. (2012) A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable. Retrieved from: http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/
