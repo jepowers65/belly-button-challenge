@@ -30,7 +30,7 @@ function init() {
   });
 }
 
-//populate metadat info
+//populate metadata info
 function buildMetadata(sample) {
   d3.json(url).then((data) => {
     let metadata = data.metadata;
@@ -115,7 +115,7 @@ function buildBubbleChart(sample) {
       marker: {
         size: sample_values,
         color: otu_ids,
-        colorscale: "Health",
+        colorscale: "Blues",
       },
     };
 
